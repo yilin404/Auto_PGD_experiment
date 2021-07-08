@@ -35,3 +35,7 @@ python ./generate_fake.py --dataset [your_dataset] --model [resnet18 or resnet34
 ```
 
 ## 黑盒攻击
+
+```python
+python blackbox_attack.py --model [Inception or MobileNet or resnet18]
+```
