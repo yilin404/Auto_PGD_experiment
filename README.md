@@ -28,11 +28,15 @@ python ./mobilenet_train.py --batch_size [your_batch_size] --num_epochs [your_nu
 python ./autopgd_attack.py --dataset [your_dataset] --model [resnet18 or resnet34 or resnet50]
 ```
 
+生成的结果将保存在./results/{model}文件夹下
+
 ## 生成对抗样本和噪声
 
 ```python
 python ./generate_fake.py --dataset [your_dataset] --model [resnet18 or resnet34 or resnet50]
 ```
+
+生成的结果将保存在./fake_sample文件夹下
 
 ## 黑盒攻击
 
